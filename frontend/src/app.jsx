@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = "http://localhost:5000";
+const API = "https://todo-app-z57c.onrender.com";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
